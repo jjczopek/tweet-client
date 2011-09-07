@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Class-Path: lib\commons-cli-1.2.jar lib\activation-1.1.jar lib\apache-
+ mime4j-0.6.jar lib\async-http-jbossweb-2.2.1.GA.jar lib\async-http-se
+ rvlet-3.0-2.2.1.GA.jar lib\async-http-tomcat6-2.2.1.GA.jar lib\common
+ s-codec-1.2.jar lib\commons-httpclient-3.1.jar lib\commons-logging-1.
+ 0.4.jar lib\el-api-1.0.jar lib\FastInfoset-1.2.7.jar lib\guice-2.0.ja
+ r lib\httpclient-4.0.3.jar lib\httpcore-4.0.1.jar lib\jackson-core-as
+ l-1.6.3.jar lib\jackson-jaxrs-1.6.3.jar lib\jackson-mapper-asl-1.6.3.
+ jar lib\jackson-xc-1.6.3.jar lib\javassist-3.8.0.GA.jar lib\jaxb-api-
+ 2.2.3.jar lib\jaxb-impl-2.2.4.jar lib\jaxrs-api-2.2.1.GA.jar lib\jbos
+ s-common-core-2.2.14.GA.jar lib\jboss-el-1.0_02.CR4.jar lib\jboss-log
+ ging-spi-2.0.5.GA.jar lib\jboss-transaction-api-1.0.1.GA.jar lib\jbos
+ scache-core-3.2.5.GA.jar lib\jcip-annotations-1.0.jar lib\jettison-1.
+ 2.jar lib\jgroups-2.6.13.GA.jar lib\jsr250-api-1.0.jar lib\mail-1.4.j
+ ar lib\oauth-20100527.jar lib\oauth-provider-20100527.jar lib\persist
+ ence-api-1.0.jar lib\resteasy-atom-provider-2.2.1.GA.jar lib\resteasy
+ -cache-core-2.2.1.GA.jar lib\resteasy-cdi-2.2.1.GA.jar lib\resteasy-d
+ oseta-2.2.1.GA.jar lib\resteasy-fastinfoset-provider-2.2.1.GA.jar lib
+ \resteasy-guice-2.2.1.GA.jar lib\resteasy-jackson-provider-2.2.1.GA.j
+ ar lib\resteasy-jaxb-provider-2.2.1.GA.jar lib\resteasy-jaxrs-2.2.1.G
+ A.jar lib\resteasy-jettison-provider-2.2.1.GA.jar lib\resteasy-jsapi-
+ 2.2.1.GA.jar lib\resteasy-links-2.2.1.GA.jar lib\resteasy-multipart-p
+ rovider-2.2.1.GA.jar lib\resteasy-oauth-2.2.1.GA.jar lib\resteasy-spr
+ ing-2.2.1.GA.jar lib\resteasy-yaml-provider-2.2.1.GA.jar lib\scannota
+ tion-1.0.3.jar lib\sjsxp-1.0.1.jar lib\snakeyaml-1.8.jar lib\stax-api
+ -1.0.jar lib\log4j-1.2.8.jar
+Main-Class: rest.client.gui.MainFrame
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="rest.client.gui.MainFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="655"/>
+    </constraints>
+    <properties>
+      <preferredSize width="750" height="550"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="91f38" binding="buttonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="cd232" class="javax.swing.JButton" binding="getAllBtn">
+            <constraints/>
+            <properties>
+              <text value="Pobierz wszystkie"/>
+            </properties>
+          </component>
+          <component id="d815" class="javax.swing.JButton" binding="getFollowedBtn">
+            <constraints/>
+            <properties>
+              <text value="Pobierz śledzonych"/>
+            </properties>
+          </component>
+          <component id="87749" class="javax.swing.JButton" binding="postBtn">
+            <constraints/>
+            <properties>
+              <text value="Dodaj post"/>
+            </properties>
+          </component>
+          <component id="d2568" class="javax.swing.JButton" binding="loginBtn">
+            <constraints/>
+            <properties>
+              <text value="Logowanie"/>
+            </properties>
+          </component>
+          <component id="c8f76" class="javax.swing.JButton" binding="exitBtn">
+            <constraints/>
+            <properties>
+              <text value="Zamknij"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="993f5" binding="logPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="9f2d4">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="69add" class="javax.swing.JTextArea" binding="logArea">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <rows value="5"/>
+                  <text value="jsdlkajsdlkjsalksadl"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="cae9c" binding="contentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="c72ae">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalScrollBarPolicy value="31"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b0fd4" class="javax.swing.JTable" binding="tweetTable">
+                <constraints/>
+                <properties>
+                  <autoResizeMode value="3"/>
+                  <autoscrolls value="false"/>
+                  <enabled value="false"/>
+                  <fillsViewportHeight value="false"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <intercellSpacing width="1" height="1"/>
+                  <rowMargin value="1"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
